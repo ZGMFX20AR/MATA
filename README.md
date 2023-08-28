@@ -20,29 +20,6 @@ This Python script captures video feed from a Raspberry Pi Camera, detects motio
 1. Install required libraries:
    ```bash
    pip install opencv-python RPi.GPIO picamera[array] requests
-
-Sure, here's a basic README.md file for the provided code. Remember to update it with any additional information or context that you think would be helpful for someone who's going through your code:
-
-markdown
-Copy code
-# Motion Detection and Tracking with Raspberry Pi
-
-This Python script captures video feed from a Raspberry Pi Camera, detects motion using background subtraction, and tracks the motion using servo motors. Detected motion is communicated via Telegram messages, and video clips are sent when significant motion events occur.
-
-## Prerequisites
-
-- Raspberry Pi with Raspbian OS
-- Python 3.x
-- OpenCV library (`cv2`)
-- `requests` library
-- `RPi.GPIO` library
-- `picamera2` library
-
-## Setup and Configuration
-
-1. Install required libraries:
-   ```bash
-   pip install opencv-python RPi.GPIO picamera[array] requests
 Clone or download this repository:
 
 Create a config.ini file and populate it with your Telegram API details and other settings.
